@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Hello!</title>
+    
+      <!-- import the webpage's stylesheet -->
+      <link rel="stylesheet" href="/style.css">
+    
+      <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <hr>
+    <h1>Color Echo</h1>
+      <p>By: Daymon Wu</p>
+      <p1>Welcome to the Color Echo! </p1>
+    <br>
+      <p2>Repeat the pattern back by pressing the buttons. <a href="https://glitch.com"> Glitch</a>! </p2>
+    <br>
+      <hr>
+    <button id="startBtn" onclick="startGame()">
+      <img src="https://cdn.glitch.com/61029af9-b42a-4cf9-97a9-2976a37689a4%2Fplay.jpg?v=1616447577902" class="Sign" width="11" height="11"> Start
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      <img src="https://cdn.glitch.com/61029af9-b42a-4cf9-97a9-2976a37689a4%2Fstop.jpg?v=1616447577902" class="Sign" width="11" height="11"> Stop
+    </button>
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()">
+        <img src="https://cdn.glitch.com/61029af9-b42a-4cf9-97a9-2976a37689a4%2FLion.png?v=1616383469441" class="Animals" width="75" height="75"></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()">
+        <img src="https://cdn.glitch.com/61029af9-b42a-4cf9-97a9-2976a37689a4%2FChicken.png?v=1616383434270" class="Animals" width="75" height="75"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()">
+        <img src="https://cdn.glitch.com/61029af9-b42a-4cf9-97a9-2976a37689a4%2FPig.png?v=1616383445543" class="Animals" width="75" height="75"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()">
+        <img src="https://cdn.glitch.com/61029af9-b42a-4cf9-97a9-2976a37689a4%2Fduck.jpg?v=1616391597195" class="Animals" width="75" height="75"></button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()">
+        <img src="https://cdn.glitch.com/61029af9-b42a-4cf9-97a9-2976a37689a4%2FCow.png?v=1616383436246" class="Animals" width="75" height="75"></button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()">
+        <img src="https://cdn.glitch.com/61029af9-b42a-4cf9-97a9-2976a37689a4%2FDog.png?v=1616383440064" class="Animals" width="75" height="75"></button>
+    </div>
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+    <br>
+    <hr>
+      <p3> Please click the refresh button next to <u>Change URL</u> if audio is bugged</p3>
+    <br>
+      <p4> Sorry, I double checked the code and there is still an audio bug that happens sometimes.</p4>
+    <br>      
+      <p5> Please offer insight on what I can do.</p5>
+  </body>
+</html>
