@@ -4,7 +4,7 @@
 
 Submitted by: Daymon Wu
 
-Time spent: 10 hours spent in total
+Time spent: 17 hours spent in total
 
 Link to project: (https://glitch.com/edit/#!/butternut-potent-wood)
 
